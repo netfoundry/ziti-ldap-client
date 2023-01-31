@@ -22,13 +22,13 @@
     <dependency>
       <groupId>org.openziti</groupId>
       <artifactId>ziti</artifactId>
-      <version>0.18.5</version>
+      <version>0.22.8</version>
     </dependency>
 
     <dependency>
       <groupId>org.openziti</groupId>
       <artifactId>ziti-netty</artifactId>
-      <version>0.18.5</version>
+      <version>0.22.8</version>
     </dependency>
 
     <dependency>

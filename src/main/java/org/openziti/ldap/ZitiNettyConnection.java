@@ -335,6 +335,7 @@ final class ZitiNettyConnection extends TransportConnection
         }
 
         future.addListener((ChannelFutureListener) f -> channelLatch.countDown());
+
         try {
             // wait until the connection future is complete
             // note that the wait time is controlled by the connectTimeout property in ConnectionConfig
